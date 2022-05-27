@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Rock Paper Scissors</title>
+</head>
+<body>
+      <div class="game__wrapper">
+         <div class="game__set-name">
+            <input type="text" class="set-name__input" placeholder="Name:">
+            <button class="start-game__button">Play</button>
+         </div>
+         <div class="game__score-box">
+            <p class="user-name"></p>
+            <p class="user-score"></p>
+            <p class="pc-score"></p>
+            <p class="pc-name"></p>
+         </div>
+         <div class="game__play-box">
+            <div class="pc-chosen"></div>
+            <div class="game-result"></div>
+            <div class="result"></div>
+            <div class="chose-box">
+               <button class="rock">
+                  <img data-id="rock" src="./img/rock.png" alt="rock">
+               </button>
+               <button class="paper">
+                  <img data-id="paper" src="./img/paper.png" alt="paper">
+               </button>
+               <button class="scissors">
+                  <img data-id="scissors" src="./img/scissors.png" alt="scissors">
+               </button>
+            </div>
+            <div class="play-box__text">Enter your name!</div>
+         </div>
+         <div class="finish-window">
+            <p class="finish-window__text"></p>
+            <button class="finish-window__btn">Play again</button>
+         </div>
+      </div>
+   <script src="./js/main.js"></script>
+</body>
+</html>
